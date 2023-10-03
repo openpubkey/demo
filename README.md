@@ -1,4 +1,4 @@
-A super simple demo to show the end-to-end flow signing image attestations with OpenPubkey.
+A super simple demo to show the end-to-end flow signing image SBOM and Provenance attestations with OpenPubkey.
 
 This repo contains a trivial node program which prints "Hello OpenPubkey". There is a Dockerfile that builds it
 into an image.
