@@ -1,1 +1,1 @@
-console.log("Hello OpenPubkey")
+console.log("Hi OpenPubkey")
