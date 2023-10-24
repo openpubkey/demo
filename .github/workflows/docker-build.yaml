@@ -35,7 +35,7 @@ jobs:
         uses: docker/setup-buildx-action@v3.0.0
         with:
           driver-opts: |
-            image=openpubkey/buildkit:opk-signing
+            image=openpubkey/buildkit:opk-signing-testing
             env.ACTIONS_ID_TOKEN_REQUEST_URL=${{ env.ACTIONS_ID_TOKEN_REQUEST_URL }}
             env.ACTIONS_ID_TOKEN_REQUEST_TOKEN=${{ env.ACTIONS_ID_TOKEN_REQUEST_TOKEN }}
 
